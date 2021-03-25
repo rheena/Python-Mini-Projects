@@ -6,3 +6,5 @@ This projects are;
 3. Text-to-Speech converter
 4. Twitter bot
 5. Image resolution
+6. Binary Search Algorithm
+7. Guessing game
