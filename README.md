@@ -5,3 +5,4 @@ This projects are;
 2. Calendar GUI
 3. Text-to-Speech converter
 4. Twitter bot
+5. Image resolution
