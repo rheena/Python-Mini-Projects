@@ -26,19 +26,19 @@ def binary_search_recursive performs recursive search of an integer in a given, 
 a_list sorted the list of the integers
 x is the integer you are searching for the position of
 '''
-def binary_search_recursive(a_list, x):
+def binary_search_recursive(a_list, y):
     first = 0
     last = len(a_list) - 1
     if len(a_list) == 0:
-        return 'Was not found in the list: '.format(item=x)
+        return 'Was not found in the list: '.format(item=y)
     else:
         i = (first + last) // 2
         if x == a_list[i]:
-            return 'Found'.format(item=x)
+            return 'Found'.format(item=y)
         else:
             if a_list[i] < x:
-                return binary_search_recursive(a_list[i+1], x)
+                return binary_search_recursive(a_list[i+1], y)
             else:
-                return binary_search_recursive(a_list[:i], x)
+                return binary_search_recursive(a_list[:i], y)
 
 
