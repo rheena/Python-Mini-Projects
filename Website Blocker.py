@@ -2,7 +2,7 @@ import time
 from datetime import datetime as dt
 hosts_path = r'/etc/hosts' #r is for raw string
 hosts_temp = 'hosts'
-redirect = '127.0.0.1'
+redirect = '127.0.0.2'
 web_sites_list = ['www.instagram.com', 'instagram.com']
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 9) < dt.now() <dt(dt.now().year, dt.now().month, dt.now().day, 22):
